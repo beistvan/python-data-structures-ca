@@ -1,0 +1,55 @@
+$ python demonstrating-the-min-heap.py
+Adding: 22 to [None]
+HEAP RESTORED! [None, 22]
+
+Adding: 96 to [None, 22]
+HEAP RESTORED! [None, 22, 96]
+
+Adding: 79 to [None, 22, 96]
+HEAP RESTORED! [None, 22, 96, 79]
+
+Adding: 69 to [None, 22, 96, 79]
+swapping 96 with 69
+HEAP RESTORED! [None, 22, 69, 79, 96]
+
+Adding: 22 to [None, 22, 69, 79, 96]
+swapping 69 with 22
+HEAP RESTORED! [None, 22, 22, 79, 96, 69]
+
+Adding: 33 to [None, 22, 22, 79, 96, 69]
+swapping 79 with 33
+HEAP RESTORED! [None, 22, 22, 33, 96, 69, 79]
+
+Removing: 22 from [None, 22, 22, 33, 96, 69, 79]
+Last element moved to first: [None, 79, 22, 33, 96, 69]
+Left child is smaller
+swapping 79 with 22
+Right child is smaller
+swapping 79 with 69
+HEAP RESTORED! [None, 22, 69, 33, 96, 79]
+
+Removing: 22 from [None, 22, 69, 33, 96, 79]
+Last element moved to first: [None, 79, 69, 33, 96]
+Right child is smaller
+swapping 79 with 33
+HEAP RESTORED! [None, 33, 69, 79, 96]
+
+Removing: 33 from [None, 33, 69, 79, 96]
+Last element moved to first: [None, 96, 69, 79]
+Left child is smaller
+swapping 96 with 69
+HEAP RESTORED! [None, 69, 96, 79]
+
+Removing: 69 from [None, 69, 96, 79]
+Last element moved to first: [None, 79, 96]
+There is only a left child
+HEAP RESTORED! [None, 79, 96]
+
+Removing: 79 from [None, 79, 96]
+Last element moved to first: [None, 96]
+HEAP RESTORED! [None, 96]
+
+Removing: 96 from [None, 96]
+Last element moved to first: [None]
+HEAP RESTORED! [None]
+
