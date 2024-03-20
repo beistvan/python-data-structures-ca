@@ -47,3 +47,30 @@ tree.insert(74)
 
 # Print depth-first traversal:
 tree.depth_first_traversal()
+
+"""
+Tree node 24 added to the left of 48 at depth 2
+Tree node 55 added to the right of 48 at depth 2
+Tree node 26 added to the right of 24 at depth 3
+Tree node 38 added to the right of 26 at depth 4
+Tree node 56 added to the right of 55 at depth 3
+Tree node 74 added to the right of 56 at depth 4
+Depth=2, Value=24
+Depth=3, Value=26
+Depth=4, Value=38
+Depth=1, Value=48
+Depth=2, Value=55
+Depth=3, Value=56
+Depth=4, Value=74
+"""
+
+"""
+   48
+  /  \
+24    55
+  \     \
+   26    56
+     \     \
+      38    74
+"""
+
